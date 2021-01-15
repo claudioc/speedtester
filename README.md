@@ -2,6 +2,14 @@
 
 Runs a network speedtest (using [speedtest-cli](https://github.com/sivel/speedtest-cli)) and appends the results in a Google Spreadsheet of your choice.
 
+The information saved in the spreadsheet are:
+
+- timestamp
+- the ping latency
+- download speed (in MB/s)
+- upload speed (in MB/s)
+- Internet service provider name
+
 ## Why Speedtester?
 
 I needed a way to automatically track the speedtest of my home connection
